@@ -1,48 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify clone</title>
-    <link rel="stylesheet" href="css/style.css">
+  <title>My Spotify</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <div class="wrapper d-flex">
-        <main id="site_content" class="d-flex">
-            <aside class="main_menu">Sidebar</aside>
-            <section class="covers_section">
-                <div class="subscribe_banner">
-                    lorem
-                </div>   
+  <!-- Wrapper -->
+  <div class="wrapper d-flex">
+    <!-- Main content -->
+    <main id="site_content" class="site_content d-flex">
 
-                <nav>
-                     <a href="#">Lorem</a>
-                     <a href="#">Lorem</a>
-                     <a href="#">Lorem</a>
-                     <a href="#">Lorem</a>
-                
-                </nav>
-                <h2>Recently played</h2>
-                <div id="recently_played" class="d-flex flex-wrap">
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
+      <!-- Sidebar -->
+      <div class="main_menu d-flex">
+        <div class="main_top">
+          <div class="logo"><img src="./img/logo.svg" alt=""></div>
+          <div class="home">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Cerca</a></li>
+              <li><a href="">La tua libreria</a></li>
+            </ul>
+          </div>
+          <div class="playlist">
+            <h5>PLAYLIST</h5>
+            <div class="crea-playlist"><a href="">Crea Playlist</a></div>
+            <div class="name-playlist">
+              <ul>
+                <li><a href="">Nome Playlist</a></li>
+                <li><a href="">Nome Playlist</a></li>
+                <li><a href="">Nome Playlist</a></li>
+                <li><a href="">Nome Playlist</a></li>
+                <li><a href="">Nome Playlist</a></li>
+                <li><a href="">Nome Playlist</a></li>
+                <li><a href="">Nome Playlist</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main_bottom">
+          <div class="sidebar-bottom">
+            <div class="installa"><span>Installa app</span></div>
+            <div class="username"><span>John Doe</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- /Sidebar -->
 
-                </div>
-                
-                <div id="created_for"></div>
-                <div id="popular"></div>
-                
+      <!-- Cover -->
+      <section class="covers_section">
 
-            </section>
-        </main>
-        <footer id="site_footer">
-            <div class="player">player</div>
-        </footer>
-    </div>
+        <!-- Subscrive -->
+        <div class="subscribe_banner">
+          Lorem
+        </div>
+        <!-- /Subscrive -->
+
+        <!-- Nav -->
+        <nav>
+          <a href="#">Lorem</a>
+          <a href="#">Lorem</a>
+          <a href="#">Lorem</a>
+          <a href="#">Lorem</a>
+        </nav>
+        <!-- /Nav -->
+
+        <!-- Recently -->
+        <h2>Recently played</h2>
+        <section id="recently_played" class="recently-played d-flex flex-wrap">
+
+
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+
+
+        </section>
+        <!-- /Recently-->
+
+        <!-- Create for -->
+        <h2>Creato per John Doe</h2>
+        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+        <section id="created_for" class="created-for d-flex flex-wrap">
+          <div class="item"></div>
+          <div class="item"></div>
+        </section>
+        <!-- /Create for -->
+
+        <!-- Popular -->
+        <h2>Artisti più popolari</h2>
+        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+        <section id="popular" class="popular d-flex flex-wrap">
+          <div class="item"></div>
+          <div class="item"></div>
+        </section>
+        <!-- /Popular -->
+
+      </section>
+      <!-- /Cover -->
+
+    </main>
+    <!-- /Main content -->
+
+    <!-- Site footer -->
+    <footer id="site_footer" class="site_footer">
+      <div class="player">player</div>
+    </footer>
+    <!-- /Site footer -->
+
+
+
+  </div>
+  <!-- /Wrapper -->
+
 
 </body>
+
 </html>
