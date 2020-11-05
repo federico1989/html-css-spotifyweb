@@ -26,19 +26,19 @@ a {
     flex-wrap: wrap;
 }
 
-/* Wrapper */
+/* wrapper */
 .wrapper {
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
 }
 
-/* Main site */
+/* main site */
 #site_content {
     height: calc(100% - 60px);
 }
 
-/* Sidebar */
+/* sidebar */
 #main_menu {
   background-color: black;
   width: 300px;
@@ -79,7 +79,7 @@ a {
   height: 45px;
 }
 
-.home li:hover {
+.home li a:hover {
   border-left: 3px solid greenyellow;
 }
 
@@ -135,8 +135,8 @@ a {
 }
 
 .username {
-   border-top: 1px solid grey;
-   padding: 15px 15px 10px 0;
+  border-top: 1px solid grey;
+  padding: 15px 15px 10px 0;
 }
 
 .username a {
@@ -157,36 +157,38 @@ a {
   margin-right: 10px;
 }
 /* /main bottom */
+/* /sidebar */
+/* /main site */
 
 /* Covers */
 .covers_section {
-    background-color: aquamarine;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 20px;
-    padding-top: 60px;
-    width: calc(100% - 300px);
+  background-color: aquamarine;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  padding-top: 60px;
+  width: calc(100% - 300px);
 }
 
 /* Subscribe */
 .subscribe_banner {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 60px;
-    width: calc(100% - 300px);
-    background-color: #8a2be2a1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 60px;
+  width: calc(100% - 300px);
+  background-color: #8a2be2a1;
 }
 
 /* Recently */
 .item {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+  width: 200px;
+  height: 200px;
+  background-color: red;
 }
 
 /* Site footer */
 #site_footer {
-    background-color: yellowgreen;
-    height: 60px;
+  background-color: yellowgreen;
+  height: 60px;
 }
