@@ -1,8 +1,15 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  color: white;
+  font-family: 'GothamPro';
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 li{
   list-style: none;
@@ -17,11 +24,6 @@ a {
 
 .flex-wrap {
     flex-wrap: wrap;
-}
-
-body {
-    background-color: #333;
-    color: white;
 }
 
 /* Wrapper */
@@ -49,7 +51,7 @@ body {
   padding: 15px;
 }
 
-.logo > img {
+.logo img {
   width: 70%;
 }
 
@@ -66,6 +68,7 @@ body {
   display: flex;
   align-items: center;
 }
+/* /main top */
 
 .home {
   margin: 30px 0;
@@ -76,15 +79,84 @@ body {
   height: 45px;
 }
 
-.home li a:hover {
+.home li:hover {
   border-left: 3px solid greenyellow;
 }
 
 .home span {
   margin-left: 10px;
 }
+/* home */
+.playlist h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
 
+.create_playlist, .name_playlist {
+  margin-left: 15px;
+}
 
+.create_playlist .fas {
+  font-size: 40px;
+  color: white;
+}
+
+.create_playlist a {
+  display: flex;
+  align-items: center;
+}
+
+.create_playlist span {
+  color: white;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.name_playlist ul li {
+  margin: 20px 0;
+}
+/* /playlist */
+.main_bottom {
+  padding: 15px 15px 0;
+}
+
+.installa a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.installa img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+.username {
+   border-top: 1px solid grey;
+   padding: 15px 15px 10px 0;
+}
+
+.username a {
+  display: flex;
+  align-items: center;
+}
+
+.username span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.username img {
+  width: 25px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/* /main bottom */
 
 /* Covers */
 .covers_section {
