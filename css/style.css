@@ -17,7 +17,7 @@ li{
 a {
   text-decoration: none;
 }
-/* Utility */
+/* utility */
 .d-flex {
     display: flex;
 }
@@ -107,9 +107,11 @@ a {
   display: flex;
   align-items: center;
 }
-
+.create_playlist i {
+  color: #a3a3a3;
+}
 .create_playlist span {
-  color: white;
+  color: #a3a3a3;
   margin-left: 10px;
   font-size: 1rem;
 }
@@ -160,7 +162,7 @@ a {
 /* /sidebar */
 /* /main site */
 
-/* Covers */
+/* covers */
 .covers_section {
   background-color: aquamarine;
   overflow-y: auto;
@@ -169,8 +171,9 @@ a {
   padding-top: 60px;
   width: calc(100% - 300px);
 }
+/* banner */
 
-/* Subscribe */
+/* subscribe */
 .subscribe_banner {
   position: fixed;
   top: 0;
@@ -180,15 +183,118 @@ a {
   background-color: #8a2be2a1;
 }
 
-/* Recently */
+/* recently */
 .item {
   width: 200px;
   height: 200px;
   background-color: red;
 }
 
-/* Site footer */
+/* FOOTER */
 #site_footer {
-  background-color: yellowgreen;
-  height: 60px;
+  background-color: #282828;
+  height: 100px;
 }
+
+.player {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+/* song */
+.song {
+  width: 20%;
+  justify-content: space-between;
+}
+.song-cover {
+  align-items: center;
+}
+.song-cover p{
+  color: #a3a3a3;
+}
+.song-cover img{
+  height: 50px;
+  margin: 0 15px;
+}
+/* /song cover */
+.song-fav{
+  align-items: center;
+}
+.song-fav i{
+  color: #a3a3a3;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+/* /song fav */
+/* /song */
+/* play */
+.play {
+  flex-flow: column;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.play i {
+  font-size: 1.1rem;
+  margin: 0 15px 15px;
+}
+
+.play-controls {
+  justify-content: center;
+  align-items: center;
+}
+
+.play-controls>i.far.fa-play-circle {
+  font-size: 2rem;
+}
+/* /play controls */
+.time {
+  flex-flow: row;
+  align-items: center;
+}
+
+
+.time .cursor {
+  width: 100%;
+  background-color: #a3a3a3;
+  height: 5px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.time .cursor-overlay {
+  width: 25%;
+  background-color: lightgray;
+  height: 5px;
+  border-radius: 10px;
+}
+/* /time */
+.started span, .ended span{
+  font-size: 0.6rem;
+}
+.controls {
+  width: 20%;
+  align-items: center;
+}
+
+.controls i {
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.controls .cursor {
+  width: 100%;
+  background-color: #a3a3a3;
+  height: 5px;
+  border-radius: 10px;
+  margin: 0 20px 0 5px;
+}
+
+.controls .cursor-overlay {
+  width: 25%;
+  background-color: lightgray;
+  height: 5px;
+  border-radius: 10px;
+}
+/* /control */
+/* /player */
