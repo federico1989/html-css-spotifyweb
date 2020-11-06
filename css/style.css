@@ -164,7 +164,7 @@ a {
 
 /* covers */
 .covers_section {
-  background-color: aquamarine;
+  background-color: #141922;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 20px;
@@ -198,9 +198,24 @@ a {
   line-height: 0px;
   cursor: pointer;
 }
-.subscribe span {
+.subscribe span, nav a{
   text-transform: uppercase;
 }
+/* nav */
+nav {
+  justify-content: center;
+}
+
+nav a {
+  margin: 25px 15px;
+  color: #a3a3a3;
+
+}
+nav a:hover {
+  transform: scale(1.2);
+}
+
+/* /NAV */
 /* recently */
 .item {
   width: 200px;
