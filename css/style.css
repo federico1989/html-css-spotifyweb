@@ -17,6 +17,10 @@ li{
 a {
   text-decoration: none;
 }
+[class*="col-"] {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 /* utility */
 .d-flex {
     display: flex;
@@ -214,14 +218,38 @@ nav a {
 nav a:hover {
   transform: scale(1.2);
 }
-
-/* /NAV */
-/* recently */
-.item {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+/* /nav */
+/* recently created popular */
+.covers_section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
+
+.item img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.item h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.item p {
+  color: #a3a3a3;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #a3a3a3;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+/* /recently created popular */
+/* /COVER */
 
 /* FOOTER */
 #site_footer {
