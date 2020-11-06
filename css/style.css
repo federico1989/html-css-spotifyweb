@@ -180,9 +180,27 @@ a {
   right: 0;
   height: 60px;
   width: calc(100% - 300px);
-  background-color: #8a2be2a1;
+  background-color: #00000087;
+  justify-content: flex-end;
+  align-items: center;
 }
-
+.subscribe {
+  font-size: 0.8rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 22px 38px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 25px;
+  border-radius: 25px;
+  height: 35px;
+  line-height: 0px;
+  cursor: pointer;
+}
+.subscribe span {
+  text-transform: uppercase;
+}
 /* recently */
 .item {
   width: 200px;
@@ -224,6 +242,7 @@ a {
   color: #a3a3a3;
   font-size: 1rem;
   margin: 0 5px;
+  cursor: pointer;
 }
 /* /song fav */
 /* /song */
@@ -237,6 +256,7 @@ a {
 .play i {
   font-size: 1.1rem;
   margin: 0 15px 15px;
+  cursor: pointer;
 }
 
 .play-controls {
@@ -252,14 +272,13 @@ a {
   flex-flow: row;
   align-items: center;
 }
-
-
 .time .cursor {
   width: 100%;
   background-color: #a3a3a3;
   height: 5px;
   border-radius: 10px;
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .time .cursor-overlay {
@@ -280,6 +299,7 @@ a {
 .controls i {
   margin: 0 10px;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .controls .cursor {
@@ -288,6 +308,7 @@ a {
   height: 5px;
   border-radius: 10px;
   margin: 0 20px 0 5px;
+  cursor: pointer;
 }
 
 .controls .cursor-overlay {
