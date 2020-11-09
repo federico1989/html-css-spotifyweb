@@ -300,7 +300,9 @@ nav a span:hover::after{
 .recently_heading {
   margin-bottom: 30px;
 }
-
+.item{
+  height: 280px;
+}
 .item img {
   width: 100%;
   margin-bottom: 15px;
