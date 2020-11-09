@@ -36,7 +36,7 @@ a {
     height: calc(100% - 60px);
 }
 
-/* sidebar */
+/* SIDEBAR */
 #main_menu {
   background-color: black;
   width: 300px;
@@ -69,26 +69,37 @@ a {
 }
 /* /main top */
 
+/* home */
 .home {
-  position: relative;
   margin: 30px 0;
+  position: relative;
 }
-
 .home li a {
-  color: #a3a3a3;
-  padding-left: 15px;
+  padding-left: 20px;
   height: 45px;
 }
-
-.home li a:hover {
+.home li a:hover{
   color: white;
-  border-left: 3px solid greenyellow;
 }
-
+.home li:hover{
+  transform: scale(1);
+}
+.home li a::after{
+  position: absolute;
+  content: '';
+  height: 45px;
+  left: 0;
+  bottom:0;
+  border-left: 3px solid #adff2f;
+  visibility: hidden;
+}
+.home li a:hover::after{
+  visibility: visible;
+}
 .home span {
   margin-left: 10px;
 }
-/* home */
+/* /home */
 .playlist h5 {
   font-size: 1rem;
   font-weight: 600;
@@ -173,8 +184,8 @@ a {
   margin-right: 10px;
 }
 /* /main bottom */
-/* /sidebar */
 /* /main site */
+/* /SIDEBAR */
 
 /* covers */
 .covers_section {
@@ -186,7 +197,7 @@ a {
   width: calc(100% - 300px);
 }
 
-/* Overlay*/
+/* overlay*/
 .box{
   position: relative;
 }
@@ -255,10 +266,26 @@ nav {
 nav a {
   margin: 25px 15px;
   color: #a3a3a3;
+  position: relative;
 
 }
 nav a:hover {
   transform: scale(1.2);
+}
+nav a span::after{
+  position: absolute;
+  content: '';
+  clear: both;
+  display: table;
+  width: 30px;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 2px solid #adff2f;
+  visibility: hidden;
+}
+nav a span:hover::after{
+  visibility: visible;
 }
 /* /nav */
 /* recently created popular */
