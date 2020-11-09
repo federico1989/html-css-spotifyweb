@@ -233,6 +233,7 @@ a {
 /* subscribe */
 .subscribe_banner {
   position: fixed;
+  z-index: 999;
   top: 0;
   right: 0;
   height: 70px;
@@ -445,7 +446,7 @@ nav a span:hover::after{
   cursor: pointer;
 }
 
-.controls .cursor-overlay {
+.controls .cursor_overlay {
   width: 25%;
   background-color: lightgray;
   height: 5px;
@@ -484,3 +485,52 @@ nav a span:hover::after{
   .username {
     border-top: none;
   }
+  .main_bottom .download {
+    margin-left: 2px;
+  }
+  #site_footer {
+    height: 80px;
+  }
+  .player {
+    justify-content: space-around;
+  }
+  .song_cover img {
+    height: 25px;
+  }
+  .song_title{
+    font-size: 10px;
+  }
+  .song_fav{
+    flex-direction: column;
+  }
+  .play{
+    width:40%;
+  }
+  .play i {
+    font-size: 0.8rem;
+    margin: 0 10px 10px;
+  }
+  .play-controls>i.far.fa-play-circle {
+    font-size: 10px;
+  }
+  .time span{
+    font-size: 10px;
+  }
+  .time .cursor {
+    margin: 0 10px;
+  }
+  .controls {
+    margin-left:5px;
+  }
+  .controls i {
+    margin: 0 2px;
+    font-size: 0.8rem;
+  }
+  .controls .cursor {
+    width: 300px;
+  }
+  .controls .cursor_overlay {
+    width: 15%;
+  }
+
+}
