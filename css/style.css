@@ -50,10 +50,13 @@ a {
   cursor: pointer;
 }
 
-.logo img {
+.logo .big_logo {
   width: 70%;
 }
 
+.logo .small_logo {
+  display: none;
+}
 .main_top a, .main_bottom a {
   width: fit-content;
 }
@@ -232,7 +235,7 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-  height: 60px;
+  height: 70px;
   width: calc(100% - 300px);
   background-color: #00000087;
   justify-content: flex-end;
@@ -450,3 +453,34 @@ nav a span:hover::after{
 }
 /* /control */
 /* /player */
+
+
+/* MEDIA */
+@media screen and (min-width:0) and (max-width: 1200px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px){
+  #main_menu {
+    min-width: 70px;
+    width: 70px;
+  }
+  .covers_section {
+    width: calc(100% - 70px);
+  }
+  .subscribe_banner {
+    width: calc(100% - 70px);
+    height: 80px;
+  }
+  .main_top .small_logo{
+    display: block;
+    width: 30px;
+    margin-left: 5px;
+  }
+  .main_top .big_logo, .home li a span, .playlist, .main_bottom span {
+    display: none;
+  }
+  .username {
+    border-top: none;
+  }
