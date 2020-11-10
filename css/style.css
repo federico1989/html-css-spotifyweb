@@ -17,23 +17,23 @@ a {
 }
 /* utility */
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /* wrapper */
 .wrapper {
-    height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* main site */
 #site_content {
-    height: calc(100% - 60px);
+  height: calc(100% - 100px);
 }
 
 /* SIDEBAR */
@@ -349,6 +349,10 @@ nav a span:hover::after{
 #site_footer {
   background-color: #282828;
   height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .player {
@@ -464,7 +468,7 @@ nav a span:hover::after{
     flex-wrap: wrap;
   }
 }
-@media (max-width: 576px){
+@media (max-width: 639px){
   #main_menu {
     min-width: 70px;
     width: 70px;
